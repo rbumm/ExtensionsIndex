@@ -6,38 +6,39 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/VASST/SlicerVideoCameras.git
+scmurl https://github.com/netstim/SlicerNetstim.git
 scmrevision master
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends SlicerOpenCV VASSTAlgorithms
+depends SlicerRT MarkupsToModel
 
 # Inner build directory (default is ".")
 build_subdirectory .
 
 # homepage
-homepage https://github.com/VASST/SlicerVideoCameras
+homepage https://github.com/netstim/SlicerNetstim
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
-contributors Adam Rankin (Robarts Research Institute), Elvis Chen (Robarts Research Institute)
+# For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
+contributors Simon Oxenford (Charite Berlin)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
-category Webcams
+category Netstim
 
 # url to icon (png, size 128x128 pixels)
-iconurl https://github.com/VASST/SlicerVideoCameras/raw/master/SlicerVideoCameras_128.png
+iconurl https://raw.githubusercontent.com/netstim/SlicerNetstim/master/logo.png
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand behind?
-status Stable
+status beta
 
 # One line stating what the module does
-description This extension contains modules for interacting with cameras (calibration, capture, etc...)
+description Netstim modules collection for deep brain stimulation applications
 
 # Space separated list of urls
-screenshoturls https://github.com/VASST/SlicerVideoCameras/raw/master/Documentation/screenshot.png
+screenshoturls https://raw.githubusercontent.com/netstim/SlicerNetstim/master/Documentation/Screenshot.png
 
 # 0 or 1: Define if the extension should be enabled after its installation.
 enabled 1

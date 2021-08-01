@@ -12,17 +12,17 @@ scmrevision master
 # list dependencies
 # - These should be names of other modules that have .s4ext files
 # - The dependencies will be built first
-depends NA
+depends PyTorch
 
 # Inner build directory (default is ".")
 build_subdirectory .
 
 # homepage
-homepage https://torchio.readthedocs.io/slicer.html
+homepage https://torchio.readthedocs.io/interfaces/index.html#d-slicer-gui
 
 # Firstname1 Lastname1 ([SubOrg1, ]Org1), Firstname2 Lastname2 ([SubOrg2, ]Org2)
 # For example: Jane Roe (Superware), John Doe (Lab1, Nowhere), Joe Bloggs (Noware)
-contributors Fernando Pérez-García (University College London)
+contributors Fernando Pérez-García (University College London and King's College London)
 
 # Match category in the xml description of the module (where it shows up in Modules menu)
 category Utilities
